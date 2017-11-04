@@ -8,7 +8,7 @@ Bash script for Automatic EBS Snapshots and Delete obsolete Backups.
 
 - ```pip install awscli```
 
-- ``` You need to install dateUtils (http://www.fresse.org/dateutils/)
+- ``` You need to install dateUtils (http://www.fresse.org/dateutils/)```
 
 Now, Configure Aws command line utility
 - ```aws configure```
