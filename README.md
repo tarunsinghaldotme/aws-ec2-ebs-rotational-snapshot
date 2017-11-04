@@ -2,7 +2,7 @@
 
 Bash script for Automatic EBS Snapshots and Delete obsolete Backups.
 
-**Todo this you need to install some dependencies on your system.**
+** To use this you need to install some dependencies on your system.**
 
 - ```apt-get install jq```
 
