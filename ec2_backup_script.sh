@@ -3,12 +3,6 @@
 COMMAND=$1
 ROTATION_PERIOD=$2
 
-if [ -z COMMAND ];
-	then
-		echo "Usage of $1: Please Define COMMAND { delete or backup } to run "
-		exit 1
-fi
-
 function backup_ebs () {
 	for volume in $(aws ec2 describe-volumes | jq .Volumes[].VolumeId | sed 's/\"//g' )
 	do 
