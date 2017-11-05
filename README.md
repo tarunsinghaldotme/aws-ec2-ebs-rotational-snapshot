@@ -1,6 +1,7 @@
 # :shipit: aws-ec2-ebs-rotational-snapshot
 
- :+1: **Bash script for Automatic EBS Snapshots and Delete obsolete Backups.***
+ :+1: ***Bash script for Automatic EBS Snapshots and Delete obsolete Backups.***
+ 
  <br>
  
 ***To use this you need to install some dependencies on your system.***
